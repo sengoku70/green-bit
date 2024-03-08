@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family:'Montserrat';
+ }html {
+    scroll-behavior:smooth;
+  }body{
+     background-image: linear-gradient(60deg,cyan,purple);
+     background-repeat: no-repeat;
+     background-size: 200%;
+    
+     
+     
+     
+ }.li,a,button{
+     font-family:'Montserrat';
+     font-weight: 400;
+     font-size: 16px;
+     color: white;
+     text-decoration: none;
+     
+     
+ }header{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+     height: 100px;
+     backdrop-filter: blur(10px);
+     width: 80%;
+     z-index: 998;
+     position: fixed;
+     font-size: 25px;
+     border-radius:50px;
+     margin-left:10%;
+     margin-top: 1%;
+     background-color:  rgba(0, 0, 0, 0.39);
+     background-repeat: no-repeat;
+     
+     
+ }header input{
+    border: 0px;
+    outline:none;
+    font-size:60%;
+    font-weight: 500;
+    height: 90%;
+    font-family: 'Montserrat';
+
+}.cta{
+    margin-left: 0px;
+    margin-right: 2%;
+}.searchbar{
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:10px 20px;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+}.searchbar button{
+    background-color: transparent;
+    padding: 0%;
+}
+ 
+ 
+ .logo{
+     cursor: pointer;
+     height: auto;
+     margin-right: auto;
+     height: 100px;
+     border-radius: 50px;
+     
+ }.nav__links li{
+     display: flex;
+     display: inline-block;
+     padding: 0px 20px;
+     justify-content: space-around;
+     
+     
+ }.nav__links{
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }.nav__links li a {
+     transition: all 0.3s sec ease 0s;
+ }.nav__links li a:hover{
+     color:rgb(0, 132, 255)
+ }button{
+     padding: 9px 25px;
+     background-color: rgba(0, 128, 255,1);
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.3s sec ease 0s;
+     margin-left: 15px;
+ }button:hover{
+     background-color: rgba(60, 213, 255, 0.8);
+     transition-duration: .4s;
+     color: black;
+ 
+ }
+ .u{
+     color: rgb(69, 134, 190);
+ }.box{
+     height: 30px;
+     display: flex;
+     cursor: pointer;
+     padding: 10px 30px;
+     background: whitesmoke;
+     border-radius: 30px;
+     align-items: center;
+     width: 70px;
+     
+ }.box:hover input{
+     width: 400px;
+ }.box input{
+     width: 0;
+     outline: none;
+     border: none;
+     font-weight: 100;
+     transition: 0.8s;
+     background: transparent;
+ 
+ }.box a .fas{
+     color: aqua;
+     font-size: 18px;
+ }.head{
+    font-size: 300%;
+    font-family: 'Montserrat';
+    font-family: 600;
+    margin-top: 100px;
+   
+ }.pages{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+
+ }.a{
+    height: 280px;
+    margin: 30px;
+    display: flex;
+    width: auto;
+    border-radius: 30px;
+    justify-content:space-between;
+    font-family:'Montserrat';  
+    align-items: center;
+    
+}.a:hover{
+    background-color: rgba(0, 0, 0, 0.39);
+    transition-duration: .4s;
+    
+}.a img{
+    width:20%;
+}.b{
+    
+    font-size: 40px;
+    font-weight: 1000;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    
+}.b h3{
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    font-weight: 300;
+    
+
+}.m{
+    height: 80%;
+    border-radius: 30px;
+    margin: 37px;
+}
+.z{
+    border-radius: 10px;
+    height: 85%;
+    margin-left: 10%;
+ }.p:hover{
+    height: 95%;   
+    transition-duration: 1s;     
+    
+}
+.n{
+    border-radius: 10px;
+    height: 85%;
+    margin-left: 10%;
+    transform: translate(50px);
+    transition-duration: 1s;
+}.o{
+    border-radius: 10px;
+    height: 85%;
+    margin-left: 10%;
+    transition-duration: 1s;
+}.geo{
+    display: flex;
+    
+}.foot{
+    
+    color: aliceblue;
+    font-size: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    
+}.foot li{
+    list-style-type: none;
+    text-align: center;
+    
+}footer{
+    background-color: rgb(34, 39, 40);
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 25px;text-align: center;
+    font-family:'Montserrat';
+}footer img{
+    border-radius: 25px;
+    width:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}.bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}.bottom img{
+    border-radius: 0px;
+}.bottom img:hover{
+    height: 60px;
+    width: auto;
+    transition-duration: .8s;
+}.foot button{
+    background-image: linear-gradient(60deg,cyan,purple);
+}.sec{
+    background-image: url(Untitled7.png);
+    color: rgb(255, 255, 255);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}.sec h1{   
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(virginia-lackinger-JV0y2YgXJcY-unsplash.jpg);  
+    font-weight:bolder;
+    background-size:contain;
+    background-position: center;
+}#myvedio{
+    width: 95%;
+    margin-top: 10%;
+    border-radius: 50px;
+    margin-left: 2%;
+    height: 700px;
+    background-image: linear-gradient(rgb(26, 42, 27, 0.344),rgba(99, 99, 99, 0.667));
+    justify-self:center;
+    
+}.geohead{
+    margin: 5%;
+    font-size: 170%;
+    text-transform: uppercase;
+}.geo{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+
+}.geo button{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 0%;
+    
+}.geo button img{
+    height: 100%;
+    width: 130%;
+
+}.geo button:hover{
+    background-color: black;
+
+}.geods{
+    height: 700px;
+    margin: 2% 2% 2% 2%;
+    border-radius:40px; 
+    background-color: rgba(0, 0, 0, 0.326);
+    white-space: nowrap;
+    overflow: hidden;
+    border: 5px solid rgb(20, 20, 20);
+    z-index:999;
+}.geods div h2{
+    -webkit-background-clip: text;
+    background-image: linear-gradient(60deg,rgb(108, 255, 255),rgb(255, 144, 255));  
+    color: transparent;
+    margin-top: 30%;
+    font-weight: 500;
+    text-wrap:wrap;
+    text-align: center;
+    backdrop-filter:blur(20px);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}#crater{
+    background-image: url(chase-o-7yKgU0xemJw-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+    
+
+}#river{
+    background-image: url(glauber-sampaio-FkNzeOnsA0g-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    
+    
+}#mountains{
+    background-image: url(4k-mountain-l3f04sogeaabr5h0.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}#deltas{
+    background-image: url(curioso-photography-OOiygaquXZs-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    color: rgb(4, 27, 47);
+}#canyons{
+    background-image: url(madhu-shesharam-EVZxXuOEk3w-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    
+}#crystallcaves{
+    background-image: url(crystallcaves.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    color:white;
+}#volcano{
+    background-image: url(toby-elliott-Nqdx6-LW4VE-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    color:white;
+}.p{
+    border-radius: 10px;
+    height: 85%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 50px rgb(7, 36, 46);
+    transition-duration: 1s;
+}.sec button{
+    font-weight: 500;
+    background-image: linear-gradient(60deg,cyan,purple);
+    
+}
