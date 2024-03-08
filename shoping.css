@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: montserrat;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    flex-direction:row;
+    
+    
+    
+}nav button{
+    height: 30px;
+    align-self: center;
+
+}nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 60%;
+    align-items: center;
+}nav ul form{
+    background-image:linear-gradient(30deg,rgb(0, 247, 255),purple);
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}nav ul form input{
+    background-color: transparent;
+    outline: 0px;
+    border: 0px solid ;
+    width: 80%;
+    color: aliceblue;
+    font-weight: 500;
+}nav ul form img{
+    height: 70%;
+    
+}nav button{
+    border: 0px solid;
+    width: 30px;
+    height: 30px;
+    background-image: url(three\ line.png);
+    background-size: contain;
+    
+}.sidebar{
+
+}.hero{
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+      
+}.hero{
+    background-image: url(frame-ecology-collection.jpg);
+    background-size: 850px;
+    background-repeat:no-repeat;
+    background-position: 80%;
+    display: flex;
+    align-content: center;
+    
+}.adv{
+    background-image: linear-gradient(30deg,rgb(0, 247, 255),purple);
+    height: 500px;
+    width: 500px;
+    transform: translateX(-400px);
+    color: aliceblue;
+    font-size:60px;
+    font-weight: 600;
+    
+
+}.adv p{
+    margin: 5%;
+}.adv button{
+    background-color: aliceblue;
+    height: 50px;
+    width: 200px;
+    margin-top: 10%;
+    border: 0px solid;
+    margin-left: 10%;
+    font-size: 30px;
+}.ctga{
+    display: flex;
+    justify-content: space-between;
+}.ctga img{
+    height:400px;
+    width: 40%;
+}   
+.ctg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}.p1 div{
+    height: 400px;
+    overflow: hidden;
+    width:250px;
+    border: 0px solid;
+}.p1 div img{
+    height: 400px;
+}.p1{
+    display: flex;
+    justify-content: space-around;
+}.p1 div button{
+    background-color:transparent;
+    border: 0px solid;
+}
